@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+.inner{width:1200px;margin:0 auto;}
+
+/*one 区*/
+.one{background:url(../images/zixingc_02.jpg) no-repeat center center;height:495px;}
+ 
+/*two 区*/
+.two{height:57px;margin-top:30px;background:#e6e6e6;}
+.two p{float:left;line-height:57px;height:57px;color:#999999;font-size:18px;}
+.two p span{color:#333333;font-size:18px;}
+
+/*three 区*/
+.three{width:1200px;margin:0 auto;}
+.three aside{padding-top:90px;float:left;width:206px;height:1960px;padding-right:6px;}
+.three aside h3{width:206px;;height:50px;background:#082c4c;line-height:50px;text-align:center;color:#fff;font-size:18px;margin-bottom:16px;}
+.three aside ul{width:206px;height:430px;background:#adc0c4;}
+.three aside li{padding:26px 0 0 16px;}
+.three aside li a{color:#353e48;font-size:14px;}
+.three aside li span{height:0;width:0;border-left:7px solid #f14e0d;border-top:7px solid transparent;border-bottom:7px solid transparent;float:left;margin:5px 9px 0 0;}
+.three article ul{float:right;padding-top:38px;}
+.three article ul li{float:left;font-size:14px;height:24px;width:24px;border:1px solid #d6d6d6;margin:0 7px;text-align:center;line-height:24px;}
+.three article .ye{height:24px;width:80px;background:#08508b;text-align:center;}
+.three article .ye a{color:#fff;}
+.three article{width:987px;float:left;}
+.three article .bike{padding-top:93px;}
+.three article .bike .top{height:395px;margin-bottom:80px;}
+.three article .bike .left{float:left;padding:0 35px;height:395px;}
+.three article .eight{margin-top:90px;}
+.three article .shu ul{padding-right:317px;}
+.three article .shu ul li{float:left;font-size:14px;height:24px;width:24px;border:1px solid #d6d6d6;margin:0 7px;text-align:center;line-height:24px;}
+.three article .shu .ye{height:24px;width:80px;background:#08508b;text-align:center;}
+.three article .shu .ye a{color:#fff;}
+
+
+

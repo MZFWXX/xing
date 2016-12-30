@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+.inner{width:1200px;margin:0 auto;}
+
+/*one 区*/
+.one{background:url(../images/aboutUs.jpg) no-repeat center center;height:496px;}
+
+/*two 区*/
+.two{height:57px;margin-top:30px;background:#e6e6e6;}
+.two p{float:left;line-height:57px;height:57px;color:#999999;font-size:18px;}
+.two p span{color:#333333;font-size:18px;}
+.two ul{float:right;padding-right:7px;}
+.two ul li{float:left;padding-left:16px;line-height:57px;height:57px;position:relative;}
+.two ul li a{color:#666;font-size:18px;}
+.two ul li .com:before{content:"";width:30px;height:1px;background:#f14e0d;position:absolute;bottom:0;left:50%;}
+.two ul li .com{color:#f14e0d;}
+.two ul li a:hover{color:#f14e0d;}
+.two ul li a:hover:before{content:"";width:30px;height:1px;background:#f14e0d;position:absolute;bottom:0;left:50%;}
+
+/*three 区*/
+.three{width:1200px;margin:0 auto;margin-top:100px;border:1px solid #999999;}
+
+/*four 区*/
+.four{width:1200px;margin:0 auto;}
+.four .first{width:1200px;height:80px;border:1px solid #bfbfbf;margin:10px 0px;}
+.four .first .icon{height:26px;width:26px;background:#ed2d2d;border-radius:50%;color:#fff;font-size:14px;line-height:26px;text-align:center;margin:27px 0 0 18px;float:left;}
+.four .first p{font-size:18px;color:#000;line-height:80px;height:80px;float:left;padding-left:30px;color:#333333;}
+.four .first span{padding:30px 0 0 107px;line-height:80px;font-size:18px;color:#333333;}
+.four .first i{font-style:normal;font-size:18px;float:right;padding-right:274px;line-height:80px;color:#333333;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+.inner{width:1200px;margin:0 auto;}
+
+/*one 区*/
+.one{background:url(../images/aboutUs.jpg) no-repeat center center;height:496px;}
+
+/*two 区*/
+.two{height:57px;margin-top:30px;background:#e6e6e6;}
+.two p{float:left;line-height:57px;height:57px;color:#999999;font-size:18px;}
+.two p span{color:#333333;font-size:18px;}
+.two ul{float:right;padding-right:7px;}
+.two ul li{float:left;padding-left:16px;line-height:57px;height:57px;position:relative;}
+.two ul li a{color:#666;font-size:18px;}
+.two ul li .com:before{content:"";width:30px;height:1px;background:#f14e0d;position:absolute;bottom:0;left:50%;}
+.two ul li .com{color:#f14e0d;}
+.two ul li a:hover{color:#f14e0d;}
+.two ul li a:hover:before{content:"";width:30px;height:1px;background:#f14e0d;position:absolute;bottom:0;left:50%;}
+
+/*three 区*/
+.three{width:1200px;margin:0 auto;text-align:center;height:600px;}
+.three h2{padding-top:90px;}
+.three h3{height:35px;width:130px;background:#072c4c;display:inline-block;line-height:35px;color:#fff;margin-top:22px;position:relative;}
+.three h3:before{content:"";width:65px;height:1px;background:#072c4c;position:absolute;top:50%;left:-56px;}
+.three h3:after{content:"";width:65px;height:1px;background:#072c4c;position:absolute;top:50%;right:-56px;}
+.three h4{color:#000;font-size:48px;font-weight:bold;padding-top:12px;line-height:104px;height:104px;}
+.three p{line-height:26px;height:26px;font-size:15px;width:800px;margin:0 auto;}
+
+/*four 区*/
+.four{height:674px;background:#e6e6e6;}
+.four .inner{width:1200px;margin:0 auto;text-align:center;}
+.four h2{padding-top:90px;}
+.four h3{height:35px;width:130px;background:#072c4c;display:inline-block;line-height:35px;color:#fff;margin-top:22px;position:relative;}
+.four h3:before{content:"";width:65px;height:1px;background:#072c4c;position:absolute;top:50%;left:-56px;}
+.four h3:after{content:"";width:65px;height:1px;background:#072c4c;position:absolute;top:50%;right:-56px;}
+.four h4{color:#000;font-size:48px;font-weight:bold;padding-top:12px;line-height:104px;height:104px;}
+.four ul{padding-top:40px;}
+.four ul li{float:left;}
+.four ul .mid{padding:0 98px;}
+
+/*five 区*/
+.five{width:1200px;margin:0 auto;text-align:center;}
+.five h2{padding-top:90px;}
+.five h3{height:35px;width:130px;background:#072c4c;display:inline-block;line-height:35px;color:#fff;margin-top:22px;position:relative;}
+.five h3:before{content:"";width:65px;height:1px;background:#072c4c;position:absolute;top:50%;left:-56px;}
+.five h3:after{content:"";width:65px;height:1px;background:#072c4c;position:absolute;top:50%;right:-56px;}
+
+
+
+
+
+
+
+
+

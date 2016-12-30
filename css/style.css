@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*预设区*/
+body,h1,h2,h3,h4,h5,h6,input,ul,li,p{margin:0;padding:0;}
+ul{list-style:none;}
+a{text-decoration:none;}
+html,body{height:100%;}
+.clear:after{content:"200B";display:block;height:0;font-size:0;clear:both;}
+.clear{*zoom:1;}
+
+/*header区*/
+header{background:#072c4c;height:60px;}
+header .inner{width:1200px;margin:0 auto;}
+header .logo{float:left;margin:14px 0 0 28px}
+header .nav{float:left;padding-left:29px;}
+header .nav li{height:60px;line-height:60px;float:left;width:140px;}
+header .nav .first{background:#041b30;}
+header .nav li a{color:#fff;font-size:14px;font-family:"宋体";display:block;margin-left:42px;}
+header .nav li:hover{background:#041b30;}
+header .search{float:left;width:114px;height:22px;border:1px solid #fff;border-radius:12px;margin-top:19px;color:#fff;padding-left:5px;}
+header .icon{float:right;margin-top:20px;padding-right:17px;}
+header .icon a{margin-left:15px;}
+
+/*footer区*/
+footer{height:250px;background:#071315;position:relative;margin-top:100px;}
+footer .inner{width:1200px;margin:0 auto;}
+footer .left{float:left;padding-top:70px;}
+footer .left span{background:url(../images/earth.png) no-repeat;color:red;height:28px;display:block;width:28px;float:left;}
+footer .left a{float:left;color:#b3b3b3;font-size:14px;padding:0 9px 0;}
+footer .left .jiao{height:0;width:0;border-top:7px solid #f14e0d;border-right:7px solid transparent;border-left:7px solid transparent;float:left;margin-top:5px;}
+footer .mid{float:left;width:600px;padding:40px 0 0 110px;}
+footer .mid .top{position:relative;padding-left:159px;}
+footer .mid .top h3{background:url(../images/logo_03.jpg) no-repeat;height:32px;}
+footer .mid .top h4{height:26px;width:1px;background:#fff;position:absolute;top:0;right:240px;}
+footer .mid .top p{float:left;color:#fff;font-size:18px;position:absolute;top:0;right:98px;}
+
+footer .mid .center{height:50px;border-bottom:1px solid #b3b3b3;}
+footer .mid .center li{float:left;line-height:50px;padding:0 14px;position:relative;}
+footer .mid .center li a{font-size:12px;color:#666;}
+footer .mid .center span{height:16px;width:1px;background:#fff;position:absolute;top:14px;left:0;}
+
+footer .mid .tob ul{float:left;width:158px;padding-top:20px;co}
+footer .mid .tob .last{float:left;width:80px;padding-top:20px;}
+footer .mid .tob a{color:#a8a9a9;font-size:12px;position:relative;}
+footer .mid .tob a:before{content:""; width:100%;height:1px;background:#a8a9a9;position:absolute;bottom:0;opacity:0;}
+footer .mid .tob a:hover:before{opacity:1;}
+
+footer .right{float:right;padding-top:72px;position:relative;}
+footer .right p{color:#cacaca;font-size:12px;}
+footer .right :before{content:""; position:absolute;top:0;right:0;background:url(../images/weixin.jpg) no-repeat;height:150px;width:150px;opacity:0;}
+footer .right a:hover:before{opacity:1;transition:all 1s;}
+footer .men{position:absolute;bottom:50px;;right:0;}
+
+

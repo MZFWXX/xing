@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+.inner{width:1200px;margin:0 auto;}
+
+/*one 区*/
+.one{background:url(../images/new_02.jpg) no-repeat center center;height:495px;}
+
+/*two 区*/
+.two{height:57px;margin-top:30px;background:#e6e6e6;}
+.two p{float:left;line-height:57px;height:57px;color:#999999;font-size:18px;}
+.two p span{color:#333333;font-size:18px;}
+.two ul{float:right;padding-right:7px;}
+.two ul li{float:left;padding-left:16px;line-height:57px;height:57px;position:relative;}
+.two ul li a{color:#666;font-size:18px;}
+.two ul li .com:before{content:"";width:30px;height:1px;background:#f14e0d;position:absolute;bottom:0;left:50%;}
+.two ul li .com{color:#f14e0d;}
+.two ul li a:hover{color:#f14e0d;}
+.two ul li a:hover:before{content:"";width:30px;height:1px;background:#f14e0d;position:absolute;bottom:0;left:50%;}
+
+/*three 区*/
+.three{width:1200px;margin:0 auto;margin-top:110px}
+.three .first{border-bottom:1px solid #b3b3b3;height:268px;margin-bottom:25px;}
+.three .pic{float:left;width:400px;}
+.three .text{float:right;width:740px;}
+.three .text h3{font-size:24px;font-weight:bold;line-height:72px;height:72px;color:#333333;}
+.three .text p{line-height:24px;color:#595959;font-size:18px;}
+.three .text p span{padding-left:92px;}
+.three .text time{line-height:58px;height:58px;color:#595959;font-size:18px;}
+.three ul{text-align:center;}
+.three ul li{display:inline;line-height:97px;height:97px;padding:0 6px;}
+.three ul li a{color:#333;font-size:14px;}
+.three ul .red a{color:#f14e0d;}
+.three ul li a:hover{color:#f14e0d;}
+
+
+
